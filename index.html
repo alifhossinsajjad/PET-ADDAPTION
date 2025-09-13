@@ -18,17 +18,30 @@
     <header>
         <div class="bg-base-100 shadow-sm p-3">
             <div class="navbar  mx-auto w-10/12 ">
-            <div class="navbar-start">
-                <div class="dropdown">
-                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
-                            stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M4 6h16M4 12h8m-8 6h16" />
-                        </svg>
+                <div class="navbar-start">
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </div>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
+                            <li><a>Home</a></li>
+                            <li>
+                                <a>Shope</a>
+                            </li>
+                            <li><a>Contact</a></li>
+                        </ul>
                     </div>
-                    <ul tabindex="0"
-                        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
+                    <a class="btn btn-ghost text-xl"><img src="./images/logo.webp" alt="">
+                        <h1>Peddy</h1>
+                    </a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1">
                         <li><a>Home</a></li>
                         <li>
                             <a>Shope</a>
@@ -36,26 +49,33 @@
                         <li><a>Contact</a></li>
                     </ul>
                 </div>
-                <a class="btn btn-ghost text-xl"><img src="./images/logo.webp" alt=""><h1>Peddy</h1></a>
+                <div class="navbar-end">
+                    <a class="btn border rounded-[100%] p-3"><i class="fa-regular fa-user"></i></a>
+                </div>
             </div>
-            <div class="navbar-center hidden lg:flex">
-                <ul class="menu menu-horizontal px-1">
-                    <li><a>Home</a></li>
-                    <li>
-                        <a>Shope</a>
-                    </li>
-                    <li><a>Contact</a></li>
-                </ul>
-            </div>
-            <div class="navbar-end">
-                <a class="btn border rounded-[100%] p-3"><i class="fa-regular fa-user"></i></a>
-            </div>
-        </div>
         </div>
     </header>
 
     <main>
+        <!-- Banner section -->
+        <section>
+            <div class=" w-10/12 mx-auto mt-20">
+                <div class="text-center space-y-10">
+                    <p class="text-2xl text-gray-500">Bringing Families Together ❤️‍🔥 </p>
+                    <h1 class="font-bold text-7xl">
+                        Your Path to Adoption <br> Starts Here
+                    </h1>
+                    <p class="text-sm">It is a long established fact that a reader will be distracted by the readable content of a page
+                        when looking <br> at its layout. The point of using Lorem Ipsum is that it has a.</p>
+                    <button class="text-white bg-[#0E7A81] rounded-lg p-4">View More</button>
+                </div>
 
+                <div class="flex justify-center items-center my-20">
+                    <img src="./images/pet.webp" alt="">
+                </div>
+            </div>
+
+        </section>
     </main>
 
 
